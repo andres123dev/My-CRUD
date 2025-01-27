@@ -14,6 +14,8 @@
   </table>
 </div>
 
+<hr>
+
 - Frontend:  
     - HTML, CSS & Javascript. 
     - jQuery  
@@ -21,7 +23,8 @@
     - TypeScript  
       
 - Backend:  
-    - PHP  
+    - PHP
+    - MariaDB
 
 More:  
     - Asynchronous request with AJAX.  
@@ -36,20 +39,21 @@ More:
 
 ## Database
 
-Harcoded credentials in PHP code (in DDBB private construct).
+### Credentials
+Harcoded credentials in PHP code (in DDBB private construct).  
 
-Database: andres  
+Database: gamedb  
 User: andres  
-Password: andres  
+Password: password  
 
-
-## Table  
-
+### Table  
 Player  
 
 - id - INT(11) - Autoincrement  
 - name - VARCHAR(50)  
 - score - INT(11)  
 
+### SQL
+In the root directory of the repository, you have the SQL code to create the table and to insert some rows (````createtable.sql````).  
 
 
