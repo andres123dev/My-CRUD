@@ -26,6 +26,30 @@
 More:  
     - Asynchronous request with AJAX.  
     - Database connection with PDO (PHP Data Objects).  
-    - Development enviroment LAMP.  
+    - Development enviroment XAMPP.  
 
-    
+# Requirements
+
+- Web server (Apache)  
+- Database server (MariaDB)  
+- A user, a database and a table created in the DBMS  
+
+## Database
+
+Harcoded credentials in PHP code (in DDBB private construct).
+
+Database: andres  
+User: andres  
+Password: andres  
+
+
+## Table  
+
+Player  
+
+- id - INT(11) - Autoincrement  
+- name - VARCHAR(50)  
+- score - INT(11)  
+
+
+
